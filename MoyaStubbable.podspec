@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "MoyaStubbable"
   s.version      = "0.0.1"
-  s.summary      = "A short description of MoyaStubbable."
+  s.summary      = "Library to record and play stubbs."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,11 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  
-  A library to automatically record stubs request for Moya. 
+  Library to record and play stubbs.
                    DESC
 
-  s.homepage     = "http://EXAMPLE/MoyaStubbable"
+  s.homepage     = "https://github.com/XavierDK/MoyaStubbable"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -54,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "" => "xavier.dekoninck@gmail.com" }
-  # Or just: s.author    = ""
-  # s.authors            = { "" => "xavier.dekoninck@gmail.com" }
-  # s.social_media_url   = "http://twitter.com/"
+  s.author             = { "XavierDK" => "xavier.dekoninck@gmail.com" }
+  # Or just: s.author    = "XavierDK"
+  # s.authors            = { "XavierDK" => "email@address.com" }
+  # s.social_media_url   = "http://twitter.com/XavierDK"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -66,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -81,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/XavierDK/MoyaStubbable.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/XavierDK/MoyaStubbable.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
