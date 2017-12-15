@@ -275,12 +275,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2544A4331FA0BB90003B0F53 /* Build configuration list for PBXNativeTarget "MoyaStubbable" */;
 			buildPhases = (
-				68FA931F1B6D45C2F565AFC4 /* [CP] Check Pods Manifest.lock */,
 				2544A41A1FA0BB90003B0F53 /* Sources */,
 				2544A41B1FA0BB90003B0F53 /* Frameworks */,
 				2544A41C1FA0BB90003B0F53 /* Headers */,
-				2544A41D1FA0BB90003B0F53 /* Resources */,
-				0D3825E0DCD93D967B54F699 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -394,13 +391,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2544A41D1FA0BB90003B0F53 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2544A4261FA0BB90003B0F53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -452,21 +442,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoTests/Pods-DemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0D3825E0DCD93D967B54F699 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaStubbable/Pods-MoyaStubbable-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2544A45A1FA0C632003B0F53 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -515,24 +490,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaStubbableTests/Pods-MoyaStubbableTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		68FA931F1B6D45C2F565AFC4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MoyaStubbable-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6E1B905F71F9D78BCE1C1B42 /* [CP] Embed Pods Frameworks */ = {
