@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		252F0D2C1FA2229C006160F5 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F0D2B1FA2229C006160F5 /* DemoTests.swift */; };
 		252F0D341FA224D9006160F5 /* NetworkStoryReaderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F0D331FA224D9006160F5 /* NetworkStoryReaderPlugin.swift */; };
-		2544A4291FA0BB90003B0F53 /* MoyaStubbable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2544A41F1FA0BB90003B0F53 /* MoyaStubbable.framework */; };
-		2544A42E1FA0BB90003B0F53 /* MoyaStubbableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2544A42D1FA0BB90003B0F53 /* MoyaStubbableTests.swift */; };
 		2544A4301FA0BB90003B0F53 /* MoyaStubbable.h in Headers */ = {isa = PBXBuildFile; fileRef = 2544A4221FA0BB90003B0F53 /* MoyaStubbable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2544A4401FA0BBD9003B0F53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2544A43F1FA0BBD9003B0F53 /* AppDelegate.swift */; };
 		2544A4421FA0BBD9003B0F53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2544A4411FA0BBD9003B0F53 /* ViewController.swift */; };
@@ -23,10 +21,12 @@
 		2544A4541FA0BD51003B0F53 /* MoyaStubbable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2544A41F1FA0BB90003B0F53 /* MoyaStubbable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2544A4591FA0BE6A003B0F53 /* NetworkRecorderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2544A4581FA0BE6A003B0F53 /* NetworkRecorderPlugin.swift */; };
 		2544A45D1FA0C680003B0F53 /* Stubs in Resources */ = {isa = PBXBuildFile; fileRef = 2544A45C1FA0C680003B0F53 /* Stubs */; };
-		257632B91FE427600028A619 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257632BA1FE427600028A619 /* Moya.framework */; };
-		5F8F7CA34794BD7BBA9117D6 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A2FF5D0F12297F58CCC17A /* Pods_Demo.framework */; };
-		81AC3334284D37E1FC7C553D /* Pods_MoyaStubbableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1438DB3C1947F52A63B3A34 /* Pods_MoyaStubbableTests.framework */; };
-		BB1E2863E31C96F904215618 /* Pods_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B40B05453F027ADA863B548 /* Pods_DemoTests.framework */; };
+		257632BC1FE7C3240028A619 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257632BB1FE7C3240028A619 /* Moya.framework */; };
+		257632BD1FE7C36F0028A619 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257632BB1FE7C3240028A619 /* Moya.framework */; };
+		257632BF1FE7C3A30028A619 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257632BE1FE7C3A30028A619 /* Alamofire.framework */; };
+		257632C21FE7C4210028A619 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257632C11FE7C4210028A619 /* Result.framework */; };
+		257632C31FE7C4910028A619 /* MoyaStubbable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2544A41F1FA0BB90003B0F53 /* MoyaStubbable.framework */; };
+		257632C41FE7C49C0028A619 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257632BB1FE7C3240028A619 /* Moya.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2544A43C1FA0BBD9003B0F53;
 			remoteInfo = Demo;
-		};
-		2544A42A1FA0BB90003B0F53 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2544A4161FA0BB90003B0F53 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2544A41E1FA0BB90003B0F53;
-			remoteInfo = MoyaStubbable;
 		};
 		2544A4551FA0BD51003B0F53 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -75,9 +68,6 @@
 		2544A41F1FA0BB90003B0F53 /* MoyaStubbable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaStubbable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2544A4221FA0BB90003B0F53 /* MoyaStubbable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoyaStubbable.h; sourceTree = "<group>"; };
 		2544A4231FA0BB90003B0F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2544A4281FA0BB90003B0F53 /* MoyaStubbableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyaStubbableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2544A42D1FA0BB90003B0F53 /* MoyaStubbableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaStubbableTests.swift; sourceTree = "<group>"; };
-		2544A42F1FA0BB90003B0F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2544A43D1FA0BBD9003B0F53 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2544A43F1FA0BBD9003B0F53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2544A4411FA0BBD9003B0F53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,15 +80,10 @@
 		2544A4581FA0BE6A003B0F53 /* NetworkRecorderPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRecorderPlugin.swift; sourceTree = "<group>"; };
 		2544A45C1FA0C680003B0F53 /* Stubs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Stubs; sourceTree = "<group>"; };
 		257632BA1FE427600028A619 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B7B12342CFDE0EED4525D4F /* Pods-MoyaStubbableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaStubbableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaStubbableTests/Pods-MoyaStubbableTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4F322F00CE95214C312A954A /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		5205EC840D512AED3C4E1277 /* Pods-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTests/Pods-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		532A3EDBB23BE93826280F59 /* Pods-MoyaStubbable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaStubbable.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaStubbable/Pods-MoyaStubbable.release.xcconfig"; sourceTree = "<group>"; };
+		257632BB1FE7C3240028A619 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		257632BE1FE7C3A30028A619 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		257632C11FE7C4210028A619 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		5B40B05453F027ADA863B548 /* Pods_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E987618137A38E0B8236EA1 /* Pods-MoyaStubbable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaStubbable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaStubbable/Pods-MoyaStubbable.debug.xcconfig"; sourceTree = "<group>"; };
-		80D4434B1E338E437ACE04CF /* Pods-MoyaStubbableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaStubbableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaStubbableTests/Pods-MoyaStubbableTests.release.xcconfig"; sourceTree = "<group>"; };
-		96AB4D2CB7A0F77FA59EB133 /* Pods-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTests/Pods-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A503742B071801D909045032 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		A5494F1F2D019E8C49AC4088 /* Pods_MoyaStubbable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaStubbable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A2FF5D0F12297F58CCC17A /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1438DB3C1947F52A63B3A34 /* Pods_MoyaStubbableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaStubbableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,7 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB1E2863E31C96F904215618 /* Pods_DemoTests.framework in Frameworks */,
+				257632C41FE7C49C0028A619 /* Moya.framework in Frameworks */,
+				257632C31FE7C4910028A619 /* MoyaStubbable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,16 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257632B91FE427600028A619 /* Moya.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2544A4251FA0BB90003B0F53 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2544A4291FA0BB90003B0F53 /* MoyaStubbable.framework in Frameworks */,
-				81AC3334284D37E1FC7C553D /* Pods_MoyaStubbableTests.framework in Frameworks */,
+				257632BC1FE7C3240028A619 /* Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +111,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F8F7CA34794BD7BBA9117D6 /* Pods_Demo.framework in Frameworks */,
+				257632C21FE7C4210028A619 /* Result.framework in Frameworks */,
+				257632BF1FE7C3A30028A619 /* Alamofire.framework in Frameworks */,
+				257632BD1FE7C36F0028A619 /* Moya.framework in Frameworks */,
 				2544A4531FA0BD51003B0F53 /* MoyaStubbable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,10 +135,8 @@
 			children = (
 				2544A43E1FA0BBD9003B0F53 /* Demo */,
 				2544A4211FA0BB90003B0F53 /* MoyaStubbable */,
-				2544A42C1FA0BB90003B0F53 /* MoyaStubbableTests */,
 				252F0D2A1FA2229C006160F5 /* DemoTests */,
 				2544A4201FA0BB90003B0F53 /* Products */,
-				F1D8304A82ABED931DC7E13E /* Pods */,
 				BAECAD2370377C56A7EA2A12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -168,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				2544A41F1FA0BB90003B0F53 /* MoyaStubbable.framework */,
-				2544A4281FA0BB90003B0F53 /* MoyaStubbableTests.xctest */,
 				2544A43D1FA0BBD9003B0F53 /* Demo.app */,
 				252F0D291FA2229C006160F5 /* DemoTests.xctest */,
 			);
@@ -185,15 +161,6 @@
 				252F0D331FA224D9006160F5 /* NetworkStoryReaderPlugin.swift */,
 			);
 			path = MoyaStubbable;
-			sourceTree = "<group>";
-		};
-		2544A42C1FA0BB90003B0F53 /* MoyaStubbableTests */ = {
-			isa = PBXGroup;
-			children = (
-				2544A42D1FA0BB90003B0F53 /* MoyaStubbableTests.swift */,
-				2544A42F1FA0BB90003B0F53 /* Info.plist */,
-			);
-			path = MoyaStubbableTests;
 			sourceTree = "<group>";
 		};
 		2544A43E1FA0BBD9003B0F53 /* Demo */ = {
@@ -214,28 +181,16 @@
 		BAECAD2370377C56A7EA2A12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				257632C11FE7C4210028A619 /* Result.framework */,
+				257632BE1FE7C3A30028A619 /* Alamofire.framework */,
 				257632BA1FE427600028A619 /* Moya.framework */,
+				257632BB1FE7C3240028A619 /* Moya.framework */,
 				A7A2FF5D0F12297F58CCC17A /* Pods_Demo.framework */,
 				A5494F1F2D019E8C49AC4088 /* Pods_MoyaStubbable.framework */,
 				C1438DB3C1947F52A63B3A34 /* Pods_MoyaStubbableTests.framework */,
 				5B40B05453F027ADA863B548 /* Pods_DemoTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F1D8304A82ABED931DC7E13E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4F322F00CE95214C312A954A /* Pods-Demo.debug.xcconfig */,
-				A503742B071801D909045032 /* Pods-Demo.release.xcconfig */,
-				7E987618137A38E0B8236EA1 /* Pods-MoyaStubbable.debug.xcconfig */,
-				532A3EDBB23BE93826280F59 /* Pods-MoyaStubbable.release.xcconfig */,
-				4B7B12342CFDE0EED4525D4F /* Pods-MoyaStubbableTests.debug.xcconfig */,
-				80D4434B1E338E437ACE04CF /* Pods-MoyaStubbableTests.release.xcconfig */,
-				96AB4D2CB7A0F77FA59EB133 /* Pods-DemoTests.debug.xcconfig */,
-				5205EC840D512AED3C4E1277 /* Pods-DemoTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,12 +211,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 252F0D321FA2229C006160F5 /* Build configuration list for PBXNativeTarget "DemoTests" */;
 			buildPhases = (
-				C89DF0D9E17217193A36AF54 /* [CP] Check Pods Manifest.lock */,
 				252F0D251FA2229C006160F5 /* Sources */,
 				252F0D261FA2229C006160F5 /* Frameworks */,
 				252F0D271FA2229C006160F5 /* Resources */,
-				3D089656D864139AD0E66599 /* [CP] Embed Pods Frameworks */,
-				081F9FCD21F6CBA82DEAAB9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,39 +242,16 @@
 			productReference = 2544A41F1FA0BB90003B0F53 /* MoyaStubbable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2544A4271FA0BB90003B0F53 /* MoyaStubbableTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2544A4361FA0BB90003B0F53 /* Build configuration list for PBXNativeTarget "MoyaStubbableTests" */;
-			buildPhases = (
-				8B4593EC1146AC72AE0EFB19 /* [CP] Check Pods Manifest.lock */,
-				2544A4241FA0BB90003B0F53 /* Sources */,
-				2544A4251FA0BB90003B0F53 /* Frameworks */,
-				2544A4261FA0BB90003B0F53 /* Resources */,
-				FCB015325826C74C9701587E /* [CP] Embed Pods Frameworks */,
-				61A680130D2114161D2D4765 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2544A42B1FA0BB90003B0F53 /* PBXTargetDependency */,
-			);
-			name = MoyaStubbableTests;
-			productName = MoyaStubbableTests;
-			productReference = 2544A4281FA0BB90003B0F53 /* MoyaStubbableTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		2544A43C1FA0BBD9003B0F53 /* Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2544A44C1FA0BBD9003B0F53 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
-				8915882834CE03D7FF76454C /* [CP] Check Pods Manifest.lock */,
 				2544A4391FA0BBD9003B0F53 /* Sources */,
 				2544A43A1FA0BBD9003B0F53 /* Frameworks */,
 				2544A43B1FA0BBD9003B0F53 /* Resources */,
-				6E1B905F71F9D78BCE1C1B42 /* [CP] Embed Pods Frameworks */,
-				05E2A33BEE8793CDE581A613 /* [CP] Copy Pods Resources */,
 				2544A4571FA0BD51003B0F53 /* Embed Frameworks */,
-				2544A45A1FA0C632003B0F53 /* ShellScript */,
+				257632C01FE7C3D80028A619 /* Carthage */,
+				2544A45A1FA0C632003B0F53 /* Stubbable */,
 			);
 			buildRules = (
 			);
@@ -354,10 +283,6 @@
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
-					2544A4271FA0BB90003B0F53 = {
-						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Automatic;
-					};
 					2544A43C1FA0BBD9003B0F53 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
@@ -378,7 +303,6 @@
 			projectRoot = "";
 			targets = (
 				2544A41E1FA0BB90003B0F53 /* MoyaStubbable */,
-				2544A4271FA0BB90003B0F53 /* MoyaStubbableTests */,
 				2544A43C1FA0BBD9003B0F53 /* Demo */,
 				252F0D281FA2229C006160F5 /* DemoTests */,
 			);
@@ -387,13 +311,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		252F0D271FA2229C006160F5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2544A4261FA0BB90003B0F53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -414,183 +331,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		05E2A33BEE8793CDE581A613 /* [CP] Copy Pods Resources */ = {
+		2544A45A1FA0C632003B0F53 /* Stubbable */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		081F9FCD21F6CBA82DEAAB9B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoTests/Pods-DemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2544A45A1FA0C632003B0F53 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
+			name = Stubbable;
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Config\n\n# Path to stubs file.\n# Remember to end it with /\n# This should be a folder reference, not a group (in Xcode)\npath=\"/Demo/Stubs/\"\n\n# Script\ncurrentDir=$(pwd)\nstubsPath=\"${currentDir}${path}\"\ninfoplist=\"$BUILT_PRODUCTS_DIR/$INFOPLIST_PATH\"\n\nif [[ -d $stubsPath ]]; then\n# if StubsDirectoryPath string doesn't exist, add it\n/usr/libexec/PlistBuddy -c \"Add :StubsDirectoryPath string $stubsPath\" \"${infoplist}\"\n# and if StubsDirectoryPath already existed, update it\n/usr/libexec/PlistBuddy -c \"Set :StubsDirectoryPath $stubsPath\" \"${infoplist}\"\nfi";
 		};
-		3D089656D864139AD0E66599 /* [CP] Embed Pods Frameworks */ = {
+		257632C01FE7C3D80028A619 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DemoTests/Pods-DemoTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = Carthage;
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Moya.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoTests/Pods-DemoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		61A680130D2114161D2D4765 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaStubbableTests/Pods-MoyaStubbableTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E1B905F71F9D78BCE1C1B42 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8915882834CE03D7FF76454C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B4593EC1146AC72AE0EFB19 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MoyaStubbableTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C89DF0D9E17217193A36AF54 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DemoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FCB015325826C74C9701587E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MoyaStubbableTests/Pods-MoyaStubbableTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaStubbableTests/Pods-MoyaStubbableTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -613,14 +386,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2544A4241FA0BB90003B0F53 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2544A42E1FA0BB90003B0F53 /* MoyaStubbableTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2544A4391FA0BBD9003B0F53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -638,11 +403,6 @@
 			isa = PBXTargetDependency;
 			target = 2544A43C1FA0BBD9003B0F53 /* Demo */;
 			targetProxy = 252F0D2E1FA2229C006160F5 /* PBXContainerItemProxy */;
-		};
-		2544A42B1FA0BB90003B0F53 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2544A41E1FA0BB90003B0F53 /* MoyaStubbable */;
-			targetProxy = 2544A42A1FA0BB90003B0F53 /* PBXContainerItemProxy */;
 		};
 		2544A4561FA0BD51003B0F53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -673,11 +433,14 @@
 /* Begin XCBuildConfiguration section */
 		252F0D301FA2229C006160F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96AB4D2CB7A0F77FA59EB133 /* Pods-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8Z9YT6W9Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XavierDeKoninck.DemoTests;
@@ -690,11 +453,14 @@
 		};
 		252F0D311FA2229C006160F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5205EC840D512AED3C4E1277 /* Pods-DemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8Z9YT6W9Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XavierDeKoninck.DemoTests;
@@ -820,7 +586,6 @@
 		};
 		2544A4341FA0BB90003B0F53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E987618137A38E0B8236EA1 /* Pods-MoyaStubbable.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -830,6 +595,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MoyaStubbable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -844,7 +613,6 @@
 		};
 		2544A4351FA0BB90003B0F53 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 532A3EDBB23BE93826280F59 /* Pods-MoyaStubbable.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -854,6 +622,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MoyaStubbable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -865,46 +637,17 @@
 			};
 			name = Release;
 		};
-		2544A4371FA0BB90003B0F53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B7B12342CFDE0EED4525D4F /* Pods-MoyaStubbableTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F8Z9YT6W9Z;
-				INFOPLIST_FILE = MoyaStubbableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.XavierDeKoninck.MoyaStubbableTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2544A4381FA0BB90003B0F53 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80D4434B1E338E437ACE04CF /* Pods-MoyaStubbableTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F8Z9YT6W9Z;
-				INFOPLIST_FILE = MoyaStubbableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.XavierDeKoninck.MoyaStubbableTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		2544A44D1FA0BBD9003B0F53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F322F00CE95214C312A954A /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8Z9YT6W9Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XavierDeKoninck.Demo;
@@ -916,12 +659,15 @@
 		};
 		2544A44E1FA0BBD9003B0F53 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A503742B071801D909045032 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8Z9YT6W9Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XavierDeKoninck.Demo;
@@ -957,15 +703,6 @@
 			buildConfigurations = (
 				2544A4341FA0BB90003B0F53 /* Debug */,
 				2544A4351FA0BB90003B0F53 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2544A4361FA0BB90003B0F53 /* Build configuration list for PBXNativeTarget "MoyaStubbableTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2544A4371FA0BB90003B0F53 /* Debug */,
-				2544A4381FA0BB90003B0F53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
