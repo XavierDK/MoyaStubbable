@@ -29,6 +29,7 @@ extension GitHubAPI: StubbableTargetType {
   var baseURL: URL { return URL(string: "https://api.github.com")! }
   
   var path: String {
+    
     switch self {
     case .userProfile(let name):
       return "/users/\(name.URLEscapedString)"
