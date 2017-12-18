@@ -44,7 +44,7 @@ public extension StubbableTargetType {
       parameters = dictionaryToStub(components)
     }
     else {
-      throw NetworkPluginError.nameGeneration
+      parameters = ""
     }
     
     if let selfString = "\(self)".components(separatedBy: "(").first {
@@ -68,7 +68,8 @@ public extension StubbableTargetType {
   
   func url(forName name: String) throws -> String {
     
-    guard let infoPlist = Bundle.main.infoDictionary,
+    let bundle = Bundle.allBundles.filter({ $0.infoDictionary?[stubsDirectoryKey] != nil }).first
+    guard let infoPlist = bundle?.infoDictionary,
       let stubsPath = infoPlist[stubsDirectoryKey] as? String
       else { throw NetworkPluginError.stubsDirectoryNotFound }
     

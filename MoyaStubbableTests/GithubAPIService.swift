@@ -1,8 +1,8 @@
 //
 //  GithubAPIService.swift
-//  Demo
+//  MoyaStubbableTests
 //
-//  Created by Xavier De Koninck on 25/10/2017.
+//  Created by Xavier De Koninck on 18/12/2017.
 //  Copyright © 2017 Xavier De Koninck. All rights reserved.
 //
 
@@ -19,7 +19,7 @@ enum GitHubAPI {
 extension GitHubAPI: StubbableTargetType {
   
   var task: Task {
-    return .requestParameters(parameters: ["key1":"value1", "key2":"value2", "key3":"value3"], encoding: URLEncoding.default)
+    return .requestPlain
   }
   
   var headers: [String : String]? {
@@ -46,9 +46,8 @@ extension GitHubAPI: StubbableTargetType {
     }
   }
   
-  public var excludedStubKeys: [String] {
-    
-    return ["key2"]
+  var excludedStubKeys: [String] {
+    return ["q"]
   }
 }
 
@@ -57,4 +56,3 @@ private extension String {
     return self.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) ?? ""
   }
 }
-

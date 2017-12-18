@@ -23,7 +23,7 @@ public struct StubStory {
   }
 }
 
-public final class NetworkStoryReaderPlugin: PluginType {
+public final class NetworkStorytellingPlugin: PluginType {
   
   let stubsStory: [StubStory]
   var currentIndex = 0
