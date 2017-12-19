@@ -78,9 +78,12 @@ public extension StubbableTargetType {
   
   func read(name: String) throws -> Data {
     
-    let urlStr = try url(forName: name)
-    guard let url = URL(string: "file://" + urlStr) else { throw NetworkPluginError.invalidURL }
+    let urlStr = try url(forName: name).addingPercentEncoding(withAllowedCharacters: .urlPathAllowed)!
+    guard let url = URL(string: "file://" + urlStr) else {
+      throw NetworkPluginError.invalidURL
+    }
     let data = try Data(contentsOf: url)
     return data
   }
 }
+
